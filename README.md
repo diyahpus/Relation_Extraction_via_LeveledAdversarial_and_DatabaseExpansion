@@ -13,19 +13,7 @@ Evaluation Results:
 
 ### Performances comparison between LATTADV-ATT and other baselines:
 
-Encoder\\Selector(Trainer) | AUC | Max F1 | P@100 | P@200 | P@300 | Mean
----- | ---- | ---- | ---- | ---- | ---- | ----
-LATTADV-ATT_k0 | 0.418 | 0.456 | 0.842 | 0.801 | 0.761 | 0.801
-ATT-ADV_k0 | 0.412 | 0.441 | 0.861 | 0.786 | 0.754 | 0.801
-LATTADV-MAX_k0 | 0.409 | 0.452 | 0.782 | 0.761 | 0.741 | 0.761
-MAX-ADV_k0 | 0.402 | 0.447 | 0.802 | 0.776 | 0.741 | 0.773
-ATT_k0 | 0.399 | 0.448 | 0.752 | 0.726 | 0.724 | 0.734
-RNN-MAX_k0 | 0.395 | 0.441 | 0.762 | 0.756 | 0.734 | 0.751
-ATT_TANH_k0 | 0.395 | 0.443 | 0.822 | 0.781 | 0.741 | 0.781
-
-
 ![](./images/Table.png)
-
 
  
 Precision/Recall curve of our method (LATTADV) with database expansion compared to state-of-the-art methods:
@@ -91,9 +79,9 @@ We provide .ipynb files as log for our experiments as well as best checkpoint fo
 
 ## Reference
 
-1. **Compression Picks Item Sets That Matter.** _Matthijs van Leeuwen, Jilles Vreeken, and Arno Siebes._ PKDD2006. [paper] (https://link.springer.com/content/pdf/10.1007/11871637_59.pdf)
+1. **Compression Picks Item Sets That Matter.** _Matthijs van Leeuwen, Jilles Vreeken, and Arno Siebes._ PKDD2006. [paper](https://link.springer.com/content/pdf/10.1007/11871637_59.pdf)
 
-2. **Widened Learning of Bayesian Network Classifiers.** _Oliver R. Sampson and Michael R. Berthold._ IDA2016. [paper] (https://www.researchgate.net/publication/309195760_Widened_Learning_of_Bayesian_Network_Classifiers)
+2. **Widened Learning of Bayesian Network Classifiers.** _Oliver R. Sampson and Michael R. Berthold._ IDA2016. [paper](https://www.researchgate.net/publication/309195760_Widened_Learning_of_Bayesian_Network_Classifiers)
 
 3. **Neural Relation Extraction with Selective Attention over Instances.** _Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, Maosong Sun._ ACL2016. [paper](http://www.aclweb.org/anthology/P16-1200)
 
@@ -103,5 +91,5 @@ We provide .ipynb files as log for our experiments as well as best checkpoint fo
 
 6. **Reinforcement Learning for Relation Classification from Noisy Data.** _Jun Feng, Minlie Huang, Li Zhao, Yang Yang, Xiaoyan Zhu._ AAAI2018. [paper](https://tianjun.me/static/essay_resources/RelationExtraction/Paper/AAAI2018Denoising.pdf)
 
-7. **Modeling relations and their mentions without labeled text.** _Sebastian Riedel, Limin Yao, and Andrew McCallum._ ECMLPKDD'10(III). [paper] (https://www.researchgate.net/publication/220698997_Modeling_Relations_and_Their_Mentions_without_Labeled_Text)
+7. **Modeling relations and their mentions without labeled text.** _Sebastian Riedel, Limin Yao, and Andrew McCallum._ ECMLPKDD'10(III). [paper](https://www.researchgate.net/publication/220698997_Modeling_Relations_and_Their_Mentions_without_Labeled_Text)
 
