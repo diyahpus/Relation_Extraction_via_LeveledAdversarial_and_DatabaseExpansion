@@ -73,7 +73,7 @@ We provide .ipynb files as log for our experiments as well as best checkpoint fo
 
 1. **Compression Picks Item Sets That Matter.** _Matthijs van Leeuwen, Jilles Vreeken, and Arno Siebes._ PKDD2006. [paper](https://link.springer.com/content/pdf/10.1007/11871637_59.pdf)
 
-2. **Widened Learning of Bayesian Network Classifiers.** _Oliver R. Sampson and Michael R. Berthold._ IDA2016. [paper](https://www.researchgate.net/publication/309195760_Widened_Learning_of_Bayesian_Network_Classifiers)
+2. **Widened KRIMP: Better Performance through Diverse Parallelism.** _Oliver R. Sampson and Michael R. Berthold._ IDA2014. [paper](https://www.researchgate.net/publication/267636338_Widened_KRIMP_Better_Performance_through_Diverse_Parallelism)
 
 3. **Neural Relation Extraction with Selective Attention over Instances.** _Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, Maosong Sun._ ACL2016. [paper](http://www.aclweb.org/anthology/P16-1200)
 
