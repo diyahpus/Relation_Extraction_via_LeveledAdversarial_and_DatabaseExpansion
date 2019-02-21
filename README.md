@@ -117,5 +117,6 @@ Contact :  _`diyahpuspitaningrum@gmail.com`_.
 
 
 
-Version : _v220220190507_
-Newer and complete version will be available on web.
+Version : _`v220220190507`_
+
+_Newer and complete version will be available on web._
