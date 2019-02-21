@@ -107,7 +107,7 @@ We provide .ipynb files as log for our experiments as well as best checkpoint fo
 
 ## Reference
 
-1. **Patterns, Models, and Queries.** _Diyah Puspitaningrum._ [Dissertation](http://diyahpuspitaningrum.net/puspitaningrum2012_dissertation.pdf). Utrecht University, Netherlands.
+1. **Patterns, Models, and Queries.** _Diyah Puspitaningrum._ Utrecht University2012. [Dissertation](http://diyahpuspitaningrum.net/puspitaningrum2012_dissertation.pdf)
 
 2. **Neural Relation Extraction with Selective Attention over Instances.** _Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, Maosong Sun._ ACL2016. [paper](http://www.aclweb.org/anthology/P16-1200)
 
