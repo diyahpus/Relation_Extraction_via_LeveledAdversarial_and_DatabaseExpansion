@@ -38,12 +38,12 @@ Python (>=2.7), TensorFlow (>=1.4.1), GPU CUDA(>=8.0), scikit-learn (>=0.18), Ma
 
 ### Preprocessing data
 ```
-wget "https://github.com/thunlp/OpenNRE/archive/old"
+wget "https://github.com/thunlp/OpenNRE/old"
 ```
 The processed data will be stored in `./OpenNRE-old_version`
 
 ```
-cp "/content/drive/My Drive/LATTADV-ATT properties/LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/model/LATTADV-ATT.py"
+cp "/content/drive/My Drive/LATTADV-ATT properties/LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/LATTADV-ATT.py"
 ```
 
 ```
@@ -51,7 +51,7 @@ cd '/content/OpenNRE_old/OpenNRE/origin_data'
 ```
 
 ```
-cp /content/Relation_Extraction_with_MDL/rel*.txt /content/OpenNRE_old/OpenNRE/origin_data/
+cp /content/Relation_Extraction_with_MDL/rel/*.txt /content/OpenNRE_old/OpenNRE/origin_data/
 cp /content/Relation_Extraction_with_MDL/jac/*.* /content/OpenNRE_old/OpenNRE/origin_data/
 ```
 The processed data will be stored in `./origin_data`
