@@ -17,7 +17,7 @@ We inspired from the paper "_Adversarial Training for Relation Extraction_" [Wu 
  
 Precision/Recall curve of our method (_LATTADV_) with database expansion compared to state-of-the-art methods:
 
-![](./images/pr_curve_jac_k5.png)
+![](./images/pr_curve_jac_k5_large.png)
 
 
 
