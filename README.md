@@ -41,10 +41,12 @@ Python (>=2.7), TensorFlow (>=1.4.1), GPU CUDA(>=8.0), scikit-learn (>=0.18), Ma
 wget "https://github.com/thunlp/OpenNRE/archive/old_version.zip"
 unzip old_version.zip
 ```
+The processed data will be stored in `./OpenNRE-old_version`
 
 ```
 git clone https://github.com/diyahpus/Relation_Extraction_with_MDL.git
 ```
+The processed data will be stored in `./Relation_Extraction_with_MDL`
 
 ```
 cp "/content/drive/My Drive/lattadv-att properties/Framework.py"  "/content/OpenNRE_old/OpenNRE/framework.py"
@@ -64,6 +66,7 @@ cat test_segment_aa.txt test_segment_ab.txt >> test.txt
 cat vec_segment_aa.txt vec_segment_ab.txt >> vec.txt
 cat train_segment_aa.txt train_segment_ab.txt train_segment_ac.txt train_segment_ad.txt >> train.txt
 ```
+The processed data will be stored in `./origin_data`
 
 
 ### Examples of Processing the Data
