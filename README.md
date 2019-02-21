@@ -49,10 +49,10 @@ git clone https://github.com/diyahpus/Relation_Extraction_with_MDL.git
 The processed data will be stored in `./Relation_Extraction_with_MDL`
 
 ```
-cp "/content/drive/My Drive/lattadv-att properties/Framework.py"  "/content/OpenNRE_old/OpenNRE/framework.py"
-cp "/content/drive/My Drive/lattadv-att properties/train_LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/train.py"
-cp "/content/drive/My Drive/lattadv-att properties/test_LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/test.py"
-cp "/content/drive/My Drive/lattadv-att properties/LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/model/LATTADV-ATT.py"
+cp "/content/drive/My Drive/LATTADV-ATT properties/Framework.py"  "/content/OpenNRE_old/OpenNRE/framework.py"
+cp "/content/drive/My Drive/LATTADV-ATT properties/train_LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/train.py"
+cp "/content/drive/My Drive/LATTADV-ATT properties/test_LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/test.py"
+cp "/content/drive/My Drive/LATTADV-ATT properties/LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/model/LATTADV-ATT.py"
 ```
 
 ```
