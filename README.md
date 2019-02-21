@@ -85,7 +85,7 @@ python3 train.py --model_name LATTADV-ATT
 ```
 
 ### Test Model
-See available model `./model`
+See available model in `./model`
 ```bash
 python3 test.py --model_name LATTADV-ATT
 ```
