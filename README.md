@@ -39,9 +39,6 @@ Python (>=2.7), TensorFlow (>=1.4.1), GPU CUDA(>=8.0), scikit-learn (>=0.18), Ma
 ### Preprocessing data
 ```
 wget "https://github.com/thunlp/OpenNRE/archive/old_version.zip"
-```
-
-```
 unzip old_version.zip
 ```
 
@@ -63,23 +60,9 @@ cd '/content/OpenNRE_old/OpenNRE/origin_data'
 ```
 cp /content/Relation_Extraction_with_MDL/rel*.txt /content/OpenNRE_old/OpenNRE/origin_data/
 cp /content/Relation_Extraction_with_MDL/jaccard_k3_20_42/*.* /content/OpenNRE_old/OpenNRE/origin_data/
-```
-
-```
 cat test_segment_aa.txt test_segment_ab.txt >> test.txt
 cat vec_segment_aa.txt vec_segment_ab.txt >> vec.txt
 cat train_segment_aa.txt train_segment_ab.txt train_segment_ac.txt train_segment_ad.txt >> train.txt
-```
-
-```
-rm test_segment_aa.txt
-rm test_segment_ab.txt
-rm vec_segment_aa.txt
-rm vec_segment_ab.txt
-rm train_segment_aa.txt
-rm train_segment_ab.txt
-rm train_segment_ac.txt
-rm train_segment_ad.txt
 ```
 
 
