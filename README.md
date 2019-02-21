@@ -97,7 +97,7 @@ All checkpoints are stored in `./checkpoint`. Best checkpoint in `./test_result`
 python3 draw_plot.py LATTADV-ATT
 ```
 
-The plot will be saved as `./test_result/pr_curve_jac_k5_large.png`.
+The plot will be saved as `./test_result/pr_curve.png`.
 
 
 # Request for additional results (optional)
