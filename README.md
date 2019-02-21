@@ -36,7 +36,57 @@ Python (>=2.7), TensorFlow (>=1.4.1), GPU CUDA(>=8.0), scikit-learn (>=0.18), Ma
 
 ## Quick Start
 
+### Preprocessing data
+```
+wget "https://github.com/thunlp/OpenNRE/archive/old_version.zip"
+```
+
+```
+! unzip old_version.zip
+```
+
+```
+! git clone https://github.com/diyahpus/Relation_Extraction_with_MDL.git
+```
+
+```
+! cp "/content/drive/My Drive/lattadv-att properties/Framework.py"  "/content/OpenNRE_old/OpenNRE/framework.py"
+! cp "/content/drive/My Drive/lattadv-att properties/train_LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/train.py"
+! cp "/content/drive/My Drive/lattadv-att properties/test_LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/test.py"
+! cp "/content/drive/My Drive/lattadv-att properties/LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/model/LATTADV-ATT.py"
+```
+
+```
+cd '/content/OpenNRE_old/OpenNRE/origin_data'
+```
+
+```
+! cp /content/Relation_Extraction_with_MDL/rel*.txt /content/OpenNRE_old/OpenNRE/origin_data/
+! cp /content/Relation_Extraction_with_MDL/jaccard_k3_20_42/*.* /content/OpenNRE_old/OpenNRE/origin_data/
+```
+
+```
+! cat test_segment_aa.txt test_segment_ab.txt >> test.txt
+! cat vec_segment_aa.txt vec_segment_ab.txt >> vec.txt
+! cat train_segment_aa.txt train_segment_ab.txt train_segment_ac.txt train_segment_ad.txt >> train.txt
+```
+
+```
+! rm test_segment_aa.txt
+! rm test_segment_ab.txt
+! rm vec_segment_aa.txt
+! rm vec_segment_ab.txt
+! rm train_segment_aa.txt
+! rm train_segment_ab.txt
+! rm train_segment_ac.txt
+! rm train_segment_ad.txt
+```
+
+
 ### Examples of Processing the Data
+```
+cd /content/OpenNRE_old/OpenNRE
+```
 
 ```bash
 python3 gen_data.py
@@ -71,7 +121,7 @@ We provide .ipynb files as log for our experiments as well as best checkpoint fo
 
 ## Reference
 
-1. **Patterns, Models, and Queries.** _Diyah Puspitaningrum._ [Dissertation](http://diyahpuspitaningrum.net/puspitaningrum2012_dissertation.pdf) . Utrecht University, Netherlands.
+1. **Patterns, Models, and Queries.** _Diyah Puspitaningrum._ [Dissertation](http://diyahpuspitaningrum.net/puspitaningrum2012_dissertation.pdf). Utrecht University, Netherlands.
 
 2. **Neural Relation Extraction with Selective Attention over Instances.** _Yankai Lin, Shiqi Shen, Zhiyuan Liu, Huanbo Luan, Maosong Sun._ ACL2016. [paper](http://www.aclweb.org/anthology/P16-1200)
 
