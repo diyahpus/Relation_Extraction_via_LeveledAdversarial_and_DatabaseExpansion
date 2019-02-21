@@ -91,7 +91,7 @@ The plot will be saved as `./test_result/pr_curve.png`.
 # Request for additional results (optional)
 We provide .ipynb files used in our experiments and also best checkpoints for drawing charts.
 
-We can be reach at  _`diyahpuspitaningrum@gmail.com`_.
+Contact :  _`diyahpuspitaningrum@gmail.com`_.
 
  
 
