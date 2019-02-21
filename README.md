@@ -114,3 +114,8 @@ Contact :  _`diyahpuspitaningrum@gmail.com`_.
 
 8. **Reinforcement Learning for Relation Classification from Noisy Data.** _Jun Feng, Minlie Huang, Li Zhao, Yang Yang, Xiaoyan Zhu._ AAAI2018. [paper](https://tianjun.me/static/essay_resources/RelationExtraction/Paper/AAAI2018Denoising.pdf)
 
+
+
+
+Version : _v220220190507_
+Newer and complete version will be available on web.
