@@ -118,5 +118,3 @@ Contact :  _`diyahpuspitaningrum@gmail.com`_.
 
 
 Version : _`v220220190507`_
-
-_Newer and complete version will be available on web._
