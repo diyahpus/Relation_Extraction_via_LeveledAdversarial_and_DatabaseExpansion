@@ -38,20 +38,11 @@ Python (>=2.7), TensorFlow (>=1.4.1), GPU CUDA(>=8.0), scikit-learn (>=0.18), Ma
 
 ### Preprocessing data
 ```
-wget "https://github.com/thunlp/OpenNRE/archive/old_version.zip"
-unzip old_version.zip
+wget "https://github.com/thunlp/OpenNRE/archive/old"
 ```
 The processed data will be stored in `./OpenNRE-old_version`
 
 ```
-git clone https://github.com/diyahpus/Relation_Extraction_with_MDL.git
-```
-The processed data will be stored in `./Relation_Extraction_with_MDL`
-
-```
-cp "/content/drive/My Drive/LATTADV-ATT properties/Framework.py"  "/content/OpenNRE_old/OpenNRE/framework.py"
-cp "/content/drive/My Drive/LATTADV-ATT properties/train_LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/train.py"
-cp "/content/drive/My Drive/LATTADV-ATT properties/test_LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/test.py"
 cp "/content/drive/My Drive/LATTADV-ATT properties/LATTADV-ATT.py"  "/content/OpenNRE_old/OpenNRE/model/LATTADV-ATT.py"
 ```
 
@@ -61,10 +52,7 @@ cd '/content/OpenNRE_old/OpenNRE/origin_data'
 
 ```
 cp /content/Relation_Extraction_with_MDL/rel*.txt /content/OpenNRE_old/OpenNRE/origin_data/
-cp /content/Relation_Extraction_with_MDL/jaccard_k3_20_42/*.* /content/OpenNRE_old/OpenNRE/origin_data/
-cat test_segment_aa.txt test_segment_ab.txt >> test.txt
-cat vec_segment_aa.txt vec_segment_ab.txt >> vec.txt
-cat train_segment_aa.txt train_segment_ab.txt train_segment_ac.txt train_segment_ad.txt >> train.txt
+cp /content/Relation_Extraction_with_MDL/jac/*.* /content/OpenNRE_old/OpenNRE/origin_data/
 ```
 The processed data will be stored in `./origin_data`
 
