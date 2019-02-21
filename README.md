@@ -84,7 +84,8 @@ The processed data will be stored in `./data`
 python3 train.py --model_name LATTADV-ATT
 ```
 
-### Test Model see available model `./model`
+### Test Model
+See available model `./model`
 ```bash
 python3 test.py --model_name LATTADV-ATT
 ```
