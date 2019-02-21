@@ -78,19 +78,19 @@ The processed data will be stored in `./data`
 
 ### Train Model
 ```
-python3 train.py --model_name pcnn_max_adv
+python3 train.py --model_name LATTADV-ATT
 ```
 
 ### Test Model see available model `./model`
 ```bash
-python3 test.py --model_name pcnn_max_adv
+python3 test.py --model_name LATTADV-ATT
 ```
 
 All checkpoints are stored in `./checkpoint`. Best checkpoint in `./test_result`.
 
 ### Plot
 ```bash
-python3 draw_plot.py pcnn_max_adv
+python3 draw_plot.py LATTADV-ATT
 ```
 
 The plot will be saved as `./test_result/pr_curve.png`.
